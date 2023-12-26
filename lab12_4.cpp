@@ -34,10 +34,9 @@ int main(){
 	return 0;
 }
 
-template <typename T2>
-void mySwap(T2 &x, T2 &y)
+void mySwap(T &x, T &y)
 {
-	T2 n = x;
+	T n = x;
 	x = y;
 	y = n;
 }
