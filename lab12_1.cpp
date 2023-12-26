@@ -1,9 +1,16 @@
 #include<iostream>
 using namespace std;
 
+int fibonacci(int x);
+
 int main(){
     int x;
     cin >> x;
-    cout << fibonacci(x);
+    cout << `(x);
     return 0; 
+}
+
+int fibonacci(int x) {
+    if (x <= 1) return(x);
+    return fibonacci(x - 1) + fibonacci(x - 2);
 }
